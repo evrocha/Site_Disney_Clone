@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+body{
+    margin: 0 auto;
+}
+.menu{
+    background-color: #191970;
+    margin: 0 auto;
+    padding: 10px;
+}
+.gridmenu {
+    display: grid;
+    grid-template-columns: auto auto auto auto 300px 200px;
+    gap: 2px;
+    align-items: center;
+    padding: 2px;
+}
+.gridmenu div {
+    padding: 5px 1;
+}  
+.item1 img {
+    width: 180px;
+    margin-left: 50px;
+} 
+.item2 {
+    grid-column: span 3;
+}
+.item4{
+    margin-top: 18px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.item4 img{
+    width: 25px;
+    height: 25px;
+    filter: invert(100%);
+}
+.pesquisa{
+    margin-top: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+
+#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    top: 18px;
+    left: 260px;
+    font-size: 22px;
+}
+nav#menu li{
+    display: inline-block;
+    padding-top: 45px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+}
+nav#menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav#menu a:hover{
+    text-decoration: none;
+    color: #41a5f7;
+}
+
+
+

@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+* { margin: 0; padding: 0; }
+
+body{
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.video{
+    align-items: center;
+    margin: auto;
+    display: block;
+    width: 1500px;
+    margin-top: 0.5%;
+}
+
+/*mini catalogo*/
+
+.famosas h1{
+    font-family: 'Poppins', sans-serif;
+    color: #0a0a0a;
+    position: relative;
+    font-size: 40px;
+    margin-top: 3.5%;
+    text-align: center
+}
+.famosas table{
+    width: 1100px;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    margin-top: 1%;
+}
+.famosas img{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}  
+.famosas a{
+    color: #0a0a0a;
+}  
+.famosas p{
+    font-family: 'Poppins', sans-serif;
+} 
+.famosas td{
+    width: 200px;
+    height: 10px;
+    padding-left: 25px;
+    align-items: center;
+    text-align: left;
+    font-size: 25px; 
+}
+.famosas td:hover{
+    font-weight: bold;  
+    filter: brightness(50%);  
+}
+
+.saibamais {
+    position: relative;
+    margin: auto;
+    height: 185px;
+    margin-top: 3.5%;
+    text-align: center;
+}
+.saibamais h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.saibamais p{
+    font-size: 35px;
+    margin-top: 0.5%; 
+    font-family: 'Poppins', sans-serif;
+}
+.saibamais img{
+    width: 35px;
+    height: 35px;
+    filter: invert(100%);
+}
+.saibamais button{
+    margin-top: 0.5%;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border-style: none;
+    background-color: #191970;
+    
+}
+.saibamais button:hover{
+    background-color: #131355;
+}
+
+/*textinhos sobre a empresa*/
+.hist table{
+    width: 1380px;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    margin-top: 3.5%;
+    background-color:#d5ecff;
+    border-style: dotted;
+    margin-bottom: 3%;
+}
+.hist img{
+    width: 650px;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.hist td{
+    padding-left: 0.3%;
+    /* background-color: aqua; */
+    width: 600px;
+}
+.hist h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 150%;    
+}
+.sobrenos {
+    /*font-family:;*/
+    text-align:justify;
+    margin: auto;
+    font-size: 22px;
+    margin-top: -145%;
+    /* background-color: #ffffff; */
+    width: 90%;
+}
+.sobrenos p{
+    margin-top: 10px;
+}
+
+/* parques temáticos*/
+.parques{
+    position: relative;
+    margin-top: 3.5%;
+    text-align: center;
+}
+.parques h1{
+    font-family: 'Poppins', sans-serif;
+    color: #0a0a0a;
+    position: relative;
+    font-size: 40px;
+    text-align: center
+}
+.parques table{
+    margin: auto;
+    align-items: center; 
+    position: relative;
+    margin-top: 1%;
+}
+.parques img{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}  
+.parques a{
+    color: #0a0a0a;
+}  
+.parques p{
+    font-family: 'Poppins', sans-serif;
+} 
+.parques td{
+    width: 200px;
+    height: 10px;
+    padding-left: 25px;
+    align-items: center;
+    text-align: center;
+    font-size: 25px; 
+}
+.parques td:hover{
+    font-weight: bold;  
+    filter: brightness(70%);  
+}
+
+.parques button{
+    margin-top: 2%;
+    width: 300px;
+    height: 90px;
+    border-radius: 50px;
+    font-size: 32px;
+    background-color: #191970;
+    border-style: none;
+}    
+.parques button:hover{
+    background-color: #131355;
+
+}
+#botparques{
+    color: #ffffff;
+}

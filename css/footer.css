@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    justify-content: end;
+    align-items: end;
+    min-height: 100vh;
+    max-height: 100; 
+}
+footer{
+    /* justify-content: center; */
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #191970;
+    color: white;
+    letter-spacing: .06em;  
+}
+a { /*tira o sublinhado dos links*/
+    text-decoration: none;
+}
+footer .conteudo-footer{
+    padding: 40px; 
+    padding-top: 60px; /* espaçamento acima do conteudo*/
+    padding-bottom: 1px; /* espaçamento abaixo do conteudo*/
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /*faz duas colunas no conteudo footer*/
+    grid-template-rows: repeat(2, 1fr, 0.5fr);  
+}
+footer .sec-abt_us-footer{
+    padding-left: 80px;
+    line-height: 1.5; 
+   
+}
+footer .sec-abt_us-footer h2{  /*formatação de Descubra a disney*/
+    margin-bottom: 10px;
+   font-size: 25px;
+}
+#pagina_inicial-footer{ /*feito para aumentar o paddind top do pagina inicial*/
+    padding-top: 30px;
+}
+footer .sec-abt_us-footer h4{ 
+   font-size: 22px;
+    color: aliceblue;
+    padding-bottom: 15px;
+}
+footer .follow_us-footer{
+    grid-column: 3/3;
+    line-height: 1.5; 
+    font-size: 17px;
+    padding-left: 80px;
+}
+footer .follow_us-footer h2{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+footer .icons_social-footer{
+    padding-top: 30px;
+}
+footer .icons_social-footer img{  
+    align-items: center;
+    width: 75px;
+    height: 75px;
+} 
+.direitos{
+    
+     text-align: center;
+    background-color: #191970;
+    padding-bottom: 30px;
+}
+.imagem-logo-footer{
+    display: grid;
+    grid-column: 2/2;
+    /* padding-left: 160px; */
+    grid-row-start: 2;
+    justify-content: center;
+   
+}
+.imagem-logo-footer img{
+    width: 320px; 
+    height: 200px;
+    
+    /*margin: 0 auto;
+    align-self: center; */
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+body{
+  background-image: url('https://i.pinimg.com/originals/29/bd/dd/29bddd30d3ddde8f3ea6ac017e33f95b.jpg');
+  font-family: 'Poppins', sans-serif; /*estilo da fonte*/
+  font-size: 20px; /*alteraçao do tamanho do texto*/
+  color: white; /* cor do texto*/
+  }
+.cards {
+    max-width: 2000px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .cards td:hover{
+    filter: brightness(70%);
+  }
+  article {
+    position: relative;
+  }
+  
+  .article-img {
+    display: grid;
+    column-gap: 1px; 
+    height: 300px;
+    width: 80%;
+    object-fit: cover;
+     
+  }
+  
+  .texto p{
+    display: grid;
+    grid-row: 1/1;
+    grid-column: 1/5;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 0px;
+    font-family: 'Poppins', sans-serif;
+     
+  }
+  
+  
+  /*.article-title {
+    position: absolute;
+    bottom: 0;
+    width: 200%;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px 4000px 500px 10px;
+  }
+  
+  

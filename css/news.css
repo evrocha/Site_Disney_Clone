@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw; 
+    background-color: #ffffff;
+}
+.content-news{
+    display: grid;
+    grid-template-columns: repeat(4, 287.5px);
+    grid-template-rows: repeat(auto);
+    position: relative;
+    column-gap:0px;
+    row-gap: 15px; /*esppaçamento entre as linhas*/
+    margin: 0 auto;
+    width: 100%; 
+    justify-content: center;   
+}
+.first-content{
+    grid-column: 1/4;
+    grid-row: 2/3;  
+}
+.texto-marvel{
+    padding-top: 30px;
+    /* padding-bottom: 0px; */
+    grid-row:1/2;
+    grid-column: 1/4;
+}
+#thor{ /*id da imagem thor*/
+    display: block;
+    position: relative;
+    width: 1150px;
+    height: 650px;
+    
+}
+.image-thor{ /*faz  com q o txt desc fique deentro da img*/
+    position: relative;
+}
+.image-doc{ /*faz  com q o txt desc fique deentro da img*/
+    position: relative;
+}
+
+.sec-content1{
+    
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.image-moon-knight{
+    position: relative;
+}
+#moon-knight{
+    width: 550px;
+    height: 340px;
+}
+.sec-content2{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.image-doc{
+    position: relative;
+}
+#doc{
+    width: 570px;
+    height: 340px;
+}
+.th-content{
+    grid-column: 1/4;
+    grid-row:4/5;
+}
+
+#eternos{
+    display: block;
+    position: relative;
+    width: 1150px;
+    height: 650px;
+}
+.image-eternos{
+    position: relative;
+}
+
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    padding-left: 3%;
+    padding-bottom: 7%;
+    padding-top: 55%;
+}
+#image__overlay-thor{
+    width: 133%;
+   
+}
+#image__overlay-moon-knight{
+    width: 190%;
+    height: 99%;
+}
+#image__overlay-doc{
+    width: 199%;
+    height: 99%;
+}
+#image__overlay-eternos{
+    width: 133%;
+}
+.image__overlay:hover{
+    transition: 0.7s;
+    opacity: 1;
+    box-shadow: 7px 5px 25px black ;
+}
+.image__title{
+    font-weight: bold;
+}
+.image__description{
+    margin-top: 0.25em;
+}
+#head-img{
+    color: #3B28CC;
+    font-size: 37px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+    padding-left: 300px; /*MARVEL fique alinhado*/
+    letter-spacing: 3.0px;
+   
+}
+/* #head-img:hover{
+   text-decoration: underline #c21515;
+} */
+.texto-pixar{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-row:5/6;
+    grid-column: 4/1;
+   
+}
+.content-news-slide_show{
+    grid-row: 6/7;
+    grid-column: 1/5;
+    width: 1150px;
+    height: 650px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.navegation{
+    position: absolute;
+    bottom: 30px;
+    left: 65%;
+    transform: translate(-100%);
+    display: flex;
+    grid-row: 6/7;
+    grid-column: 1/5;
+}
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 6px; /*faz o margin entre bar*/
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+.bar:hover{
+    background-color:  #191970;
+}
+
+.slides input{
+    display: none;
+}
+.slides{
+    display: flex; /*faz ccom q as imagens fiquem lado a lado no div slideshow*/
+    width: 410%;
+    height: 100%;   
+    
+}
+
+.slide{
+    display: flex;
+    width: 25%;
+    transition: .6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+#slide2:checked ~ .s1{
+    margin-left: -25%;
+}
+#slide3:checked ~ .s1{
+    margin-left: -50%;
+}
+#slide4:checked ~ .s1{
+    margin-left: -75%;
+}
+
+.hr{
+    grid-row:7/8;
+    grid-column: 1/5;
+    padding-top: 50px;
+}
+.hr{
+    padding-left: 1160px; /*tira a marcação de uma linha de cima do hr azul*/
+    height:50px;
+    border-radius: 80px;
+    background-color: #191970;
+}
+.inicio-buzzfeed{
+    grid-row: 8/9;
+    grid-column: 1/5;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.inicio-buzzfeed p{
+    font-size: 25px; 
+    text-align: center;
+    font-weight: bolder;
+}
+
+.four-content{
+    grid-row:9/10;
+    grid-column: 2/4;
+    
+}
+
+.container-princess{
+    border: solid #191970 3px;
+    border-radius: 15px;
+}
+.four-texto{
+    font-size: 17px;
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 12px;
+    padding-bottom: 7px;
+}
+.four-img img{
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    width: 570px;
+    height: 329px;
+} 
+.five-content{
+    grid-row: 10/11;
+    grid-column: 2/4;
+}
+.container-scrat{
+    border: solid #191970 3px;
+    border-radius: 15px;
+}
+.five-texto{
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 12px;
+    padding-bottom: 7px
+}
+.five-img img{
+    
+    border-radius: 12px;
+    width: 570px;
+    height: 389px;
+}
+.six-content{
+    grid-row: 11/12;
+    grid-column: 2/4;
+}
+.container-heroi{
+    border: solid #191970 3px;
+    border-radius: 15px; 
+}
+.six-texto{
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 12px;
+    padding-bottom: 7px;
+}
+.six-img {
+    
+    text-align: center;
+}
+.six-img img{
+    border-radius: 12px;
+    width: 570px;
+    height: 330px;
+}
+.slide .s1 p{
+    grid-row: 6/7;
+    grid-column: 1/5;
+
+}
+.slide p{
+    display: block;
+    grid-row: 6/7;
+    grid-column: 1/5;
+    width: 100%;
+    font-size: 25px;
+    position: absolute ;
+    overflow: hidden; 
+    border-radius: 15px;
+    font-size: 25px;
+    opacity: 0;
+    text-align: center;
+    padding-bottom: 60px;
+    /* padding-top: 500px; */
+    
+}
+
+#textss-luca:hover{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: #323238a6;
+}
+#textss-red:hover{
+    opacity: 1;
+    color:rgb(255, 255, 255);
+    background-color: #323238a6;
+}
+#textss-soul:hover{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: #323238a6;
+}
+#textss-buzz:hover{
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: #323238a6;
+}
+#slide-buzz p{
+    padding-top: 515px;
+}
+#slide-soul p{
+    padding-top: 480px;
+}
+#slide-red p{
+    padding-top: 520px;
+}
+#slide-buzz p{
+    padding-top: 515px;
+}
+
